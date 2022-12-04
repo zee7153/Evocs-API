@@ -12,4 +12,4 @@ app.get('', (req,res)=>{
 app.use('/',emails)
 
 const port = process.env.PORT
-app.listen(port, () => console.log(`Server running on the port 4000 ......`))
+app.listen(port, () => console.log(`Server is Running on ${port} check it out`))

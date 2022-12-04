@@ -2,9 +2,6 @@ const express = require("express");
 const router = express.Router();
 const db = require("../config/db")
 
-
-
-
 // Create route for fetch the email of subscribers
 
 router.get('/emails',(req,res)=>{
